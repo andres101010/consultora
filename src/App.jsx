@@ -5,7 +5,7 @@ import { Nosotros } from './pages/nosotros/Nosotros'
 import { Proyectos } from './pages/proyectos/Proyectos'
 import { Servicios } from './pages/servicios/Servicios'
 import { Home } from './pages/home/Home'
-import { Contantos } from './pages/constactos/Contactos'
+import { Contantos } from './pages/contactos/Contactos'
 import { Navegador } from './component/Navbar'
 import { Mision } from './pages/mision/Mision'
 
