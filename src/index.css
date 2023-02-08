@@ -21,6 +21,15 @@ body{
 .img-obj{
     height: 425px;
 }
+.img-location{
+    height: 350px;
+    
+}
+.footer-contacto{
+    background-color: black;
+    display: flex;
+    margin-top: 10px;
+}
 
 @media screen and (max-width: 575px) {
     .container-principal{
@@ -42,6 +51,9 @@ body{
     }
     .carousel-item{
         height: 700px;
+    }
+    .footer-contacto{
+        display: table-footer-group ;
     }
 }
 
