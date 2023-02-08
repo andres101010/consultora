@@ -5,12 +5,43 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.card-nosotros{
+    margin: auto;
+    width: 40rem ;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+.card-mision{
+    border-radius:5px ;
+    border-width: 5px;
+    border-color: brown;
+}
+
+.img-obj{
+    height: 425px;
+}
+
 @media screen and (max-width: 575px) {
     .container-principal{
         height: 896px;
     }
     .container-text{
         margin-top: 20px;
+    }
+    .container-nosotros{
+        height: 896px;
+    }
+    .card-nosotros{
+        width: 400px;
+    }
+    .card-mision{
+        width: 385px;
+        margin-top: 5px;
+        
+    }
+    .carousel-item{
+        height: 700px;
     }
 }
 

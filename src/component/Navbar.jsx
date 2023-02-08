@@ -11,7 +11,7 @@ export const Navegador = ()=>{
     return(
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home"><img src="\src\assets\img\Logo ABZU.jpg" alt="Logo ABZU" style={{width:'80px'}} /></Navbar.Brand>
+          <Navbar.Brand href="/"><img src="\src\assets\img\Logo ABZU.jpg" alt="Logo ABZU" style={{width:'80px'}} /></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto m-auto">

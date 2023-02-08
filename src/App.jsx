@@ -7,6 +7,7 @@ import { Servicios } from './pages/servicios/Servicios'
 import { Home } from './pages/home/Home'
 import { Contantos } from './pages/constactos/Contactos'
 import { Navegador } from './component/Navbar'
+import { Mision } from './pages/mision/Mision'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
             <Route path='/galeria' element={<Galeria />}></Route>
             <Route path='/proyectos' element={<Proyectos />}></Route>
             <Route path='/contactos' element={<Contantos />}></Route>
+            <Route path='/mision' element={<Mision />}></Route>
           </Routes>
       </BrowserRouter>
       
