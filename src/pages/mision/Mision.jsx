@@ -13,7 +13,7 @@ export const Mision = ()=>{
         <Container fluid className='mt-5'>
         <Row>
           <Col > <Card className='card-mision'>
-      <Card.Img variant="top" src="src\assets\img\klipartz.com(24).png" />
+      <Card.Img variant="top" src="src/assets/img/klipartz.com(24).png" />
       <Card.Body>
         <Card.Title>Nuestra Vision</Card.Title>
         <Card.Text>
@@ -25,7 +25,7 @@ export const Mision = ()=>{
       </Card.Body>
       </Card></Col>
           <Col> <Card className='card-mision'>
-      <Card.Img className='img-obj' variant="top" src="src\assets\img\business-war-room.jpg" />
+      <Card.Img className='img-obj' variant="top" src="src/assets/img/business-war-room.jpg" />
       <Card.Body>
         <Card.Title>Nuestros Objetivo</Card.Title>
         <Card.Text>
