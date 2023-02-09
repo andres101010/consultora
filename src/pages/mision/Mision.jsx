@@ -3,6 +3,8 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import business from '/src/assets/img/businesswarroom.jpg';
+import kli22 from '/src/assets/img/klipartz22.jpg';
 export const Mision = ()=>{
     return(
         <> 
@@ -13,7 +15,7 @@ export const Mision = ()=>{
         <Container fluid className='mt-5'>
         <Row>
           <Col > <Card className='card-mision'>
-      <Card.Img variant="top" src="src/assets/img/klipartz.com(24).png" />
+      <Card.Img variant="top" src={kli22} />
       <Card.Body>
         <Card.Title>Nuestra Vision</Card.Title>
         <Card.Text>
@@ -25,7 +27,7 @@ export const Mision = ()=>{
       </Card.Body>
       </Card></Col>
           <Col> <Card className='card-mision'>
-      <Card.Img className='img-obj' variant="top" src="src/assets/img/business-war-room.jpg" />
+      <Card.Img className='img-obj' variant="top" src={business} />
       <Card.Body>
         <Card.Title>Nuestros Objetivo</Card.Title>
         <Card.Text>

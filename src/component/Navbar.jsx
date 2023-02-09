@@ -5,12 +5,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-
+import logo from '/src/assets/img/logoabzu.jpg'
 export const Navegador = ()=>{
     return(
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/consultora/"><img src="../src/assets/img/logoabzu.jpg"   alt="Logo ABZU" style={{width:'80px'}} /></Navbar.Brand>
+          <Navbar.Brand href="/consultora/"><img src={logo}   alt="Logo ABZU" style={{width:'80px'}} /></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto m-auto">

@@ -1,4 +1,14 @@
 import Carousel from 'react-bootstrap/Carousel';
+import explo0 from '/src/assets/img/Explo-0.jpg'
+import imgreunion2 from '/src/assets/img/imgreunion2.jpg'
+import explo1 from '/src/assets/img/explo-1.jpg'
+import dsc014 from '/src/assets/img/dsc01473.jpg'
+import explo2 from '/src/assets/img/explo-2.jpg'
+import explo3 from '/src/assets/img/explo-3.jpg'
+import explo4 from '/src/assets/img/explo-4.jpg'
+import macsierra from '/src/assets/img/mac-sierra.jpg'
+import dsc01465 from '/src/assets/img/dsc01465.jpg'
+
 
 export const Galeria = ()=>{
     return(
@@ -8,7 +18,7 @@ export const Galeria = ()=>{
       <Carousel.Item interval={1000} className="carousel-item">
         <img
           className="d-block w-100 "
-          src="src\assets\img\Explo-0.jpg"
+          src={explo0}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -19,7 +29,7 @@ export const Galeria = ()=>{
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
-          src="src\assets\img\IMG-20160908-WA007_edit.jpg"
+          src={imgreunion2}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -30,20 +40,20 @@ export const Galeria = ()=>{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\img\IMG-20160908-WA018.jpg"
+          src={explo1}
           alt="Third slide"
         />
         <Carousel.Caption>
           <h3>Presentacion de Proyecto</h3>
           <p>
-            Mostrando documentacion .
+            Iniciando Exploracion .
           </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\img\explo-1.jpg"
+          src={dsc014}
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -56,7 +66,7 @@ export const Galeria = ()=>{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\img\explo-2.JPG"
+          src={explo2}
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -69,7 +79,7 @@ export const Galeria = ()=>{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\img\explo-3.JPG"
+          src={explo3}
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -82,7 +92,7 @@ export const Galeria = ()=>{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\img\explo-4 (2).JPG"
+          src={explo4}
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -95,7 +105,7 @@ export const Galeria = ()=>{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\img\explo-4.JPG"
+          src={macsierra}
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -108,7 +118,7 @@ export const Galeria = ()=>{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\assets\img\mac-osx-sierra-lu-1920x1080.jpg"
+          src={dsc01465}
           alt="Third slide"
         />
         <Carousel.Caption>

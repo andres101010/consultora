@@ -28,7 +28,7 @@ body{
 .footer-contacto{
     background-color: black;
     display: flex;
-    margin-top: 10px;
+    
 }
 
 @media screen and (max-width: 575px) {
@@ -72,6 +72,15 @@ body{
     }
     .container-text{
         margin-top: 20px;
+    }
+    .footer-contacto{
+        display: table-footer-group;
+    }
+    .img-location{
+        height: 250px;
+    }
+    .img-whatsapp{
+        height: 250px;
     }
 
 }
